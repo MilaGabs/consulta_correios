@@ -20,7 +20,7 @@ class API {
       if (info == '' || info == '0') {
         info = document.findAllElements('MsgErro').first.text;
       } else {
-        info = 'O prazo para entrega é de ' + info + ' dias.';
+        info = 'O prazo para entrega é de ' + info + ' dia(s).';
       }
       return info;
     } else {
